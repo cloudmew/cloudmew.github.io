@@ -1,10 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e21e4e4e43a925fad08bf13bff222b15",
-    "url": "aromafusion.webmanifest"
-  },
-  {
-    "revision": "a3c44c40ef14d46dd3bd",
+    "revision": "4e9f820f97b0e76bb83b",
     "url": "css/app.e7e639ea.css"
   },
   {
@@ -12,19 +8,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/chunk-vendors.f92b926d.css"
   },
   {
-    "revision": "9216f032c6b3de31e4139037d6b44040",
+    "revision": "229caee2eb8ecbe3c3a39c51a57ce094",
     "url": "index.html"
   },
   {
-    "revision": "a3c44c40ef14d46dd3bd",
-    "url": "js/app.4195bf6a.js"
+    "revision": "4e9f820f97b0e76bb83b",
+    "url": "js/app.c6e1cf6c.js"
   },
   {
     "revision": "7a5c5e654aecdbbc5f52",
     "url": "js/chunk-vendors.3b10375f.js"
   },
   {
-    "revision": "7e0a65d6772f58e91a248f86935d58c1",
+    "revision": "1dca69380b61998fb18472cdbd21f571",
     "url": "manifest.json"
   },
   {
