@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Dämpfen",
+    "description": "Die Speisen haben keinen direkten Wasserkontakt, die Hitze wird durch dampf übertragen.",
+    "baseImageName": "pot",
+    "temperature": [0]
+  },
+  {
+    "id": 6,
+    "name": "Sieden",
+    "description": "Das Gargut wird teilweise mit Sud oder Fond bedeckt",
+    "baseImageName": "glas",
+    "temperature": [80, 90]
+  },
+  {
+    "id": 2,
+    "name": "Marinieren / Einlegen",
+    "description": "Kochen durch Säure, Zucker und Salz (Osmose).",
+    "baseImageName": "glas",
+    "temperature": [0, 40]
+  },
+  {
+    "id": 3,
+    "name": "Rohspeise",
+    "description": "Die Speisen werden Roh verzehrt.",
+    "baseImageName": "plate",
+    "temperature": [0]
+  },
+  {
+    "id": 4,
+    "name": "Backen / Gratinieren",
+    "description": "Die Speisen werden im Backofen zubereitet.",
+    "baseImageName": "oven",
+    "temperature": [160, 220]
+  },
+  {
+    "id": 5,
+    "name": "Rösten",
+    "description": "Die Speisen werden in der Pfanne, bei starker Hitze zubereitet.",
+    "baseImageName": "pan",
+    "temperature": [120, 180]
+  }
+]
