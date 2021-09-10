@@ -1,0 +1,44 @@
+[
+  {
+    "id" : 0,
+    "name": "sweet",
+    "label": "Süß",
+    "color": "rgba(244, 143, 177, 0.5)",
+    "borderColor": "rgba(244, 143, 177, 1)"
+  },
+  {
+    "id" : 1,
+    "name": "sour",
+    "label": "Sauer",
+    "color": "rgba(165, 214, 167, 0.5)",
+    "borderColor": "rgba(165, 214, 167, 1)"
+  },
+  {
+    "id" : 2,
+    "name": "salty",
+    "label": "Salzig",
+    "color": "rgba(128, 203, 196, 0.5)",
+    "borderColor": "rgba(128, 203, 196, 1)"
+  },
+  {
+    "id" : 3,
+    "name": "bitter",
+    "label": "Bitter",
+    "color": "rgba(179, 157, 219, 0.5)",
+    "borderColor": "rgba(179, 157, 219, 1)"
+  },
+  {
+    "id" : 4,
+    "name": "umami",
+    "label": "Umami",
+    "color": "rgba(239, 154, 154, 0.5)",
+    "borderColor": "rgba(239, 154, 154, 1)"
+  },
+  {
+    "id" : 5,
+    "name": "trigeminus",
+    "label": "Trigeminus",
+    "color": "rgba(229, 115, 115, 0.5)",
+    "borderColor": "rgba(229, 115, 115, 1)"
+  }
+]

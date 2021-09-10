@@ -3,80 +3,465 @@
     "id": 4,
     "name": "Basilikum",
     "baseImageName": "basil",
-    "aroma": [1, 1, 1, 1, 0, 1, 0, 0],
-    "taste": [1, 2, 0, 0, 0, 0],
+    "aromaDevelopment": [
+      {
+        "id": 0,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 30
+      },{
+        "id": 2,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 40
+      },{
+        "id": 3,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 40
+      },{
+        "id": 4,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 50
+      },{
+        "id": 6,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 50
+      }
+    ],
+    "tasteDevelopment": [
+      {
+        "id": 3,
+        "value": 1,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      },{
+        "id": 5,
+        "value": 1,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      }
+    ],
     "background": "Bis vor Kurzem wurde Basilikum einzig mit der mediterranen Küche assoziiert. Seit der Ausbreitung der asiatischen Küche weiß man aber: Basilikum wird dort ebenfalls verwendet - zu scharfen Gerichten!",
-    "tasteDescription":"Das klassische Basilikum (Genovese) schmeckt angenehm fruchtig-scharf mit süßen Tönen.",
-    "maxTemperature": 50
+    "description":"Das klassische Basilikum (Genovese) schmeckt angenehm fruchtig-scharf mit süßen Tönen."
   },
   {
     "id": 8,
     "name": "Chilli",
     "baseImageName": "chilli",
-    "aroma": [0, 0, 0, 0, 0, 0, 1, 1],
-    "taste": [0, 0, 0, 0, 0, 2],
+    "aromaDevelopment": [
+      {
+        "id": 7,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 80
+      }
+    ],
+    "tasteDevelopment": [
+      {
+        "id": 5,
+        "value": 2,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      }
+    ],
     "background": "Wenn's mal richtig scharf sein darf, greift man auch in Europa immer öfter zu Chillis - allzu lange standen diese Scharfmacher hierzuland im Schatten des Pfeffers.",
-    "tasteDescription":"Die schärfe wird durch höhere Temperaturen dominanter.",
-    "maxTemperature": 300
+    "description":"Die schärfe wird durch höhere Temperaturen dominanter."
   },
   {
     "id": 7,
     "name": "Dill",
     "baseImageName": "dill",
-    "aroma": [1, 1, 1, 1, 0, 0, 0, 1],
-    "taste": [1, 2, 0, 0, 0, 0],
+    "aromaDevelopment": [
+      {
+        "id": 0,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 30
+      },{
+        "id": 2,
+        "value": 1,
+        "aromaName": "flowery",
+        "minTemperature": 20,
+        "maxTemperature": 50
+      },{
+        "id": 3,
+        "value": 1,
+        "aromaName": "balsamic",
+        "minTemperature": 20,
+        "maxTemperature": 60
+      },{
+        "id": 6,
+        "value": 1,
+        "aromaName": "spicy",
+        "minTemperature": 40,
+        "maxTemperature": 80
+      },{
+        "id": 7,
+        "value": 1,
+        "aromaName": "roasty",
+        "minTemperature": 40,
+        "maxTemperature": 80
+      }
+    ],
+    "tasteDevelopment": [
+      {
+        "id": 0,
+        "value": 1,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      },{
+        "id": 3,
+        "value": 1,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      }
+    ],
     "background": "Ursprünglich von den Römern auf ihren Feldzügen exportiert, gild Dill heute als Kraut des Nordens und des Fisches.",
-    "tasteDescription": "Dill erinnert an Kümmel, Anis und Fenchel, schmeckt süßlich und passt gut zu Fisch und in Sahne- und Mayonnaisesaucen.",
-    "maxTemperature": 80
+    "description": "Dill erinnert an Kümmel, Anis und Fenchel, schmeckt süßlich und passt gut zu Fisch und in Sahne- und Mayonnaisesaucen."
   },
   {
     "id": 6,
     "name": "Minze",
     "baseImageName": "mint",
-    "aroma": [1, 0, 1, 0, 0, 0, 1, 0],
-    "taste": [0, 1, 0, 0, 0, 1],
+    "aromaDevelopment": [
+      {
+        "id": 0,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 50
+      },{
+        "id": 3,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 60
+      },{
+        "id": 7,
+        "value": 1,
+        "minTemperature": 40,
+        "maxTemperature": 70
+      }
+    ],
+    "tasteDevelopment": [
+      {
+        "id": 0,
+        "value": 1,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      },{
+        "id": 3,
+        "value": 1,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      },{
+        "id": 5,
+        "value": 1,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      }
+    ],
     "background": "Aufgrund einer Vielzahl von Kreutzungen existieren zahlreiche verschiedene Arten von Minze, wobei die kulinarisch wichtigste in Europa die grüne Minze ist.",
-    "tasteDescription":"Minze schmeckt gleichzeitig süß und scharf, wirkt aber kühlend.",
-    "maxTemperature": 70
+    "description":"Minze schmeckt gleichzeitig süß und scharf, wirkt aber kühlend."
   },
   {
     "id": 2,
     "name": "Pfeffer",
     "baseImageName": "pepper",
-    "aroma": [0, 1, 1, 1, 0, 0, 0, 1],
-    "taste": [0, 0, 0, 1, 0, 2],
+    "aromaDevelopment": [
+      {
+        "id": 2,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 60
+      },{
+        "id": 3,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 70
+      },{
+        "id": 4,
+        "value": 1,
+        "minTemperature": 40,
+        "maxTemperature": 80
+      }
+    ],
+    "tasteDevelopment": [
+      {
+        "id": 3,
+        "value": 1,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      },{
+        "id": 5,
+        "value": 1,
+        "minTemperature": 80,
+        "maxTemperature": 120
+      }
+    ],
     "background": "Er gilt als König aller Gewürze. Alexander der Große brachte ihn aus Indien erstmals nach Europa. Schon im römischen Kochbuch des Apicius kommt er in fast jedem Rezept vor.",
-    "tasteDescription":"Pfeffer zeichnet sich neben seiner Schärfe durch erdig-harzige, frische noten aus. Spannend wird es, wenn man unterschiedliche Sorten bewusst einsetzt.",
-    "maxTemperature": 120
+    "description":"Pfeffer zeichnet sich neben seiner Schärfe durch erdig-harzige, frische noten aus. Spannend wird es, wenn man unterschiedliche Sorten bewusst einsetzt."
   },
   {
     "id": 1,
     "name": "Salz",
     "baseImageName": "salt",
-    "aroma": [0, 0, 0, 0, 0, 0, 0, 0],
-    "taste": [0, 0, 2, 0, 0, 0],
+    "aromaDevelopment": [],
+    "tasteDevelopment": [
+      {
+        "id": 2,
+        "value": 2,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      }
+    ],
     "background": "Unser Würzmittel Nummer eins schmeckt nur salzig. Aber es gibt unterschiedliche Sorten, die doch mehr als rein salzig schmecken.",
-    "tasteDescription":"Salz passt (in Maßen) zu allen Speisen. Bei den in der Küche üblichen Temperaturen verändert sich salz nicht.",
-    "maxTemperature": 300
+    "description":"Salz passt (in Maßen) zu allen Speisen. Bei den in der Küche üblichen Temperaturen verändert sich salz nicht."
   },
   {
     "id": 3,
     "name": "Zimt",
     "baseImageName": "cinnamon",
-    "aroma": [0, 1, 1, 1, 1, 1, 0, 0],
-    "taste": [1, 0, 0, 1, 0, 0],
+    "aromaDevelopment": [
+      {
+        "id": 2,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 40
+      },{
+        "id": 3,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 60
+      },{
+        "id": 4,
+        "value": 1,
+        "minTemperature": 40,
+        "maxTemperature": 60
+      },{
+        "id": 5,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 70
+      },{
+        "id": 6,
+        "value": 1,
+        "minTemperature": 60,
+        "maxTemperature": 100
+      }
+    ],
+    "tasteDevelopment": [
+      {
+        "id": 0,
+        "value": 1,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      },
+      {
+        "id": 3,
+        "value": 1,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      },
+      {
+        "id": 5,
+        "value": 1,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      }
+    ],
     "background": "Im Ägypten der Pharaonen wurde Zimt zu rituellen Zwecken eingesetzt. Im Alten Testament galt es als mindestens so wertvoll wie Gold.",
-    "tasteDescription":"Zimt riecht sehr süß-aromatisch und warm, mit einer erkennbaren herben Note.",
-    "maxTemperature": 100
+    "description":"Zimt riecht sehr süß-aromatisch und warm, mit einer erkennbaren herben Note."
   },
   {
     "id": 5,
     "name": "Zitronenzeste",
     "baseImageName": "lemonzest",
-    "aroma": [1, 1, 1, 1, 0, 0, 0, 1],
-    "taste": [0, 2, 0, 0, 0, 0],
+    "aromaDevelopment": [
+      {
+        "id": 0,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 60
+      },{
+        "id": 2,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 60
+      },{
+        "id": 3,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 60
+      },{
+        "id": 4,
+        "value": 1,
+        "minTemperature": 40,
+        "maxTemperature": 60
+      }
+    ],
+    "tasteDevelopment": [
+      {
+        "id": 1,
+        "value": 1,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      },
+      {
+        "id": 3,
+        "value": 2,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      }
+    ],
     "background": "Zitronen sind klassische Säuerungsmittel. Ihre Schale bildet die Quintessenz dieser Zitrusfrucht, weil die Aromen hier konzentriert vorliegen.",
-    "tasteDescription":"Zitronen duften fruchtig mit vielen Untertönen. Diese Aromen kommen in der Schale besser zur Geltung, im Saft werden sie von den höheren säuerlichen anteilen überdeckt.",
+    "description":"Zitronen duften fruchtig mit vielen Untertönen. Diese Aromen kommen in der Schale besser zur Geltung, im Saft werden sie von den höheren säuerlichen anteilen überdeckt."
+  },
+  {
+    "id": 9,
+    "name": "Tomaten, getrocknet",
+    "baseImageName": "driedtomato",
+    "aromaDevelopment": [
+      {
+        "id": 0,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 60
+      },{
+        "id": 1,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 120
+      },{
+        "id": 4,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 60
+      },{
+        "id": 6,
+        "value": 1,
+        "minTemperature": 50,
+        "maxTemperature": 100
+      },{
+        "id": 7,
+        "value": 1,
+        "minTemperature": 50,
+        "maxTemperature": 130
+      }
+    ],
+    "tasteDevelopment": [
+      {
+        "id": 0,
+        "value": 1,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      },
+      {
+        "id": 1,
+        "value": 1,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      },
+      {
+        "id": 4,
+        "value": 2,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      },
+      {
+        "id": 5,
+        "value": 1,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      }
+    ],
+    "background": "Getrocknete Tomaten sind wahre Geschmackswunder.",
+    "description":"Getrocknete Tomaten duften wie frische, nur intensiver fruchtig.",
     "maxTemperature": 100
+  },
+  {
+    "id": 10,
+    "name": "Tamarinde",
+    "baseImageName": "tamarind",
+    "aromaDevelopment": [
+      {
+        "id": 0,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 100
+      },{
+        "id": 2,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 60
+      },{
+        "id": 3,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 60
+      },{
+        "id": 5,
+        "value": 1,
+        "minTemperature": 30,
+        "maxTemperature": 100
+      },{
+        "id": 6,
+        "value": 1,
+        "minTemperature": 40,
+        "maxTemperature": 100
+      },{
+        "id": 7,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 100
+      }
+    ],
+    "tasteDevelopment": [
+      {
+        "id": 1,
+        "value": 2,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      },
+      {
+        "id": 3,
+        "value": 1,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      },{
+        "id": 5,
+        "value": 1,
+        "minTemperature": 20,
+        "maxTemperature": 100
+      }
+    ],
+    "background": "Tamarinde (Indische Dattel, Sauerdattel) stammt vermutlich ursprünglich aus Äthiopien.",
+    "description":"Tamarinde schmeckt sauer, aber auch süß. Ihr Duft ist fruchtig, instesamt erinnert ihr Aroma an Sojasouce und Pflaumen.",
+    "maxTemperature": 100
+  },
+  {
+    "id": 10,
+    "name": "Zucker",
+    "baseImageName": "sugar",
+    "aromaDevelopment": [
+      {
+        "id": 7,
+        "value": 1,
+        "minTemperature": 150,
+        "maxTemperature": 170
+      }
+    ],
+    "tasteDevelopment": [
+      {
+        "id": 0,
+        "value": 2,
+        "minTemperature": 10,
+        "maxTemperature": 220
+      }
+    ],
+    "background": "Der Zucker in unseren Küchen ist Saccharose.",
+    "description":"Zucker riecht nach nichts. Er definiert die reine Geschmacksrichtung süß.Erst bei sehr hohen Temperaturen bilden sich Karamellnoten.",
+    "maxTemperature": 170
   }
 ]

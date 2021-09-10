@@ -1,44 +1,101 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "name": "Dämpfen",
     "description": "Die Speisen haben keinen direkten Wasserkontakt, die Hitze wird durch dampf übertragen.",
-    "baseImageName": "pot",
-    "temperature": [0]
+    "baseImageName": ["pot"],
+    "temperature": [100, 100],
+    "sensationDiscrepancy": 0,
+    "sensationAmount": 0
   },
   {
-    "id": 6,
+    "id": 1,
     "name": "Sieden",
     "description": "Das Gargut wird teilweise mit Sud oder Fond bedeckt",
-    "baseImageName": "glas",
-    "temperature": [80, 90]
+    "baseImageName": ["pot"],
+    "temperature": [80, 98],
+    "sensationDiscrepancy": 0,
+    "sensationAmount": 0
   },
   {
     "id": 2,
-    "name": "Marinieren / Einlegen",
-    "description": "Kochen durch Säure, Zucker und Salz (Osmose).",
-    "baseImageName": "glas",
-    "temperature": [0, 40]
+    "name": "Sous Vide",
+    "description": "Beim Vakuumgaren wird das Gargut in einem luftdicht verschlossenen Plastikbeutel in einem Wasserbad bei relativ niewdrigen Temperaturen gegart.",
+    "baseImageName": ["pot", "oven"],
+    "temperature": [45, 85],
+    "sensationDiscrepancy": 0,
+    "sensationAmount": 0
   },
   {
     "id": 3,
-    "name": "Rohspeise",
-    "description": "Die Speisen werden Roh verzehrt.",
-    "baseImageName": "plate",
-    "temperature": [0]
+    "name": "Marinieren / Einlegen",
+    "description": "Kochen durch Säure, Zucker und Salz (Osmose).",
+    "baseImageName": ["glas"],
+    "temperature": [0, 40],
+    "sensationDiscrepancy": 0,
+    "sensationAmount": 0
   },
   {
     "id": 4,
     "name": "Backen / Gratinieren",
     "description": "Die Speisen werden im Backofen zubereitet.",
-    "baseImageName": "oven",
-    "temperature": [160, 220]
+    "baseImageName": ["oven"],
+    "temperature": [160, 220],
+    "sensationDiscrepancy": 0,
+    "sensationAmount": 0
   },
   {
     "id": 5,
     "name": "Rösten",
     "description": "Die Speisen werden in der Pfanne, bei starker Hitze zubereitet.",
-    "baseImageName": "pan",
-    "temperature": [120, 180]
+    "baseImageName": ["pan", "oven"],
+    "temperature": [120, 180],
+    "sensationDiscrepancy": 0,
+    "sensationAmount": 0
+  },
+  {
+    "id": 6,
+    "name": "Schmoren",
+    "description": "Eignet sich für Bindegewebereiches Fleisch und für Gemüse mit hohem Pektingehalt (etwa Karotten).",
+    "baseImageName": ["pot", "oven"],
+    "temperature": [80, 120],
+    "sensationDiscrepancy": 0,
+    "sensationAmount": 0
+  },
+  {
+    "id": 7,
+    "name": "Pochieren",
+    "description": "Kein Kochen, nur garziehen im Würzsud (Niedertemperatur)",
+    "baseImageName": ["pot"],
+    "temperature": [70, 80],
+    "sensationDiscrepancy": 0,
+    "sensationAmount": 0
+  },
+  {
+    "id": 8,
+    "name": "Kalträuchern",
+    "description": "Kalträuchern (20-30°C): Alle Lebensmittel (auch Gemüse, Käse).",
+    "baseImageName": ["grill"],
+    "temperature": [20, 30],
+    "sensationDiscrepancy": 0,
+    "sensationAmount": 0
+  },
+  {
+    "id": 9,
+    "name": "Heißräuchern",
+    "description": "Heißräuchern (60-70°C): Fisch, Fleisch, hitzebeständiges Gemüse.",
+    "baseImageName": ["grill"],
+    "temperature": [60, 70],
+    "sensationDiscrepancy": 0,
+    "sensationAmount": 0
+  },
+  {
+    "id": 10,
+    "name": "Rohspeise",
+    "description": "Die Speisen werden Roh verzehrt.",
+    "baseImageName": ["plate"],
+    "temperature": [10, 20],
+    "sensationDiscrepancy": 0,
+    "sensationAmount": 0
   }
 ]
