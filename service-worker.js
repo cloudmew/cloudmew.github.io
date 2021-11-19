@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.1ef8d8a6565692d242d6efad75884e26.js"
+  "precache-manifest.6668fe89590f7d9f0c90484bee00499b.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "aroma-fusion-ba"});
